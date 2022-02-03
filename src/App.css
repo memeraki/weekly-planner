@@ -1,0 +1,54 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.App {
+  background: snow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background: crimson;
+  min-height: 150px;
+  padding: 25px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button, input {
+  width: 250px;
+  padding: 5px;
+}
+
+.todoList {
+  background: cadetblue;
+  padding: 25px;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  border: 1px solid darkcyan;
+  padding: 25px;
+  border-radius: 25px 0px 0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content span {
+  border: 1px solid darkcyan; 
+  width: 100%;
+}
+
+.task button {
+  border-radius: 0px 25px 25px 0px;
+  background: crimson;
+}
